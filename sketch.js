@@ -88,7 +88,7 @@ function draw() {
   if(gameState === END){
     fill("white");
     textSize(20);
-    text("click space to try again", 200,200);
+    text("GAME END; click space to play again***", 200,200);
     
     monkey.addImage("ded", monkeydedIMG);
 
